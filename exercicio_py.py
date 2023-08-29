@@ -35,7 +35,6 @@ tempf = (temp * 1.8) + 32
 print("A temperatura de hoje, em Fahrenheit é: ", tempf)
 
 id = int(input("Informe a sua idade: "))
-
 if id >=18:
     print("Você já pode tirar sua carteira de motorista.")
 else:
