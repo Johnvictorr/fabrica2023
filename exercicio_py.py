@@ -1,3 +1,38 @@
+num = int(input("Digite um número: "))
+a = num-1
+s = num+1
+print("O antecessor do seu número é: ", a)
+print("O sucessor do seu número é: ", s)
+
+
+num1 = int(input("Digite um número: "))
+num2 = int(input("Digite outro número: "))
+oper = int(input("Escolha uma operação (1-soma, 2-subtração, 3-multiplicação ou 4-divisão): "))
+if oper==1:
+    soma=num1+num2
+    print("A soma dos números escolhidos é: ", soma)
+if oper==2:
+    subt=num1-num2
+    print("A subtração dos números escolhidos é: ", subt)
+if oper==3:
+    mult=num1*num2
+    print("A multiplicação dos números escolhidos é: ", mult)
+if oper==4:
+    divi=num1/num2
+    print("A divisão dos números escolhidos é: ", divi)
+
+
+num1 = int(input("Digite um número: "))
+num2 = int(input("Digite outro número: "))
+if num1>num2:
+    print(True)
+else:
+    print(False)
+
+
+temp = float(input("Informe a temperatura de hoje em graus celsius: "))
+tempf = (temp * 1.8) + 32
+print("A temperatura de hoje, em Fahrenheit é: ", tempf)
 
 id = int(input("Informe a sua idade: "))
 
