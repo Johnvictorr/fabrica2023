@@ -1,3 +1,4 @@
+
 id = int(input("Informe a sua idade: "))
 
 if id >=18:
