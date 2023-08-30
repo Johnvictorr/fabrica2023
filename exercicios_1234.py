@@ -137,3 +137,48 @@ while True:
         h+=1
 print(f"a quantidade de mulheres é: {m}")
 print(f"a quantidade de homens é: {h}")
+
+
+tarefas = []
+while True:
+    print("limpar cozinha (1): ")
+    print("fazer compras (2): ")
+    print("encerrar (3): ")
+
+    opcao = input("escolha uma das opções anteriores: ")
+
+    if opcao=="1":
+        tarefa=input("escolha uma das tarefas para adicionar na sua fila: ")
+        tarefas.append(tarefa)
+
+    elif opcao=="2":
+        if tarefas:
+            outra=tarefas.pop(0)
+            print(f"voce optou por tirar '{outra}'")
+
+    elif opcao=="3":
+        print("encerrando...")
+        break
+
+
+    pilhas = []
+while True:
+    print("limpar cozinha (1): ")
+    print("fazer compras (2): ")
+    print("encerrar (3): ")
+
+    opcao = input("escolha uma das opções anteriores: ")
+
+    if opcao=="1":
+        tarefa=input("escolha uma das tarefas para adicionar na sua fila: ")
+        pilhas.append(tarefa)
+        print(f"voce optou por adicionar '{tarefa}")
+
+    elif opcao=="2":
+        if pilhas:
+            remov=pilhas.pop(0)
+            print(f"voce optou por tirar '{remov}'")
+
+    elif opcao=="3":
+        print("encerrando...")
+        break
