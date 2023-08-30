@@ -88,3 +88,52 @@ if nome3=="pedro":
     print("oi eu sou pedro")
 if (nome):
     print("oi eu sou ", {nome})
+
+
+for a in range(11):
+    print(a)
+
+
+for a in range(10, -1, -1):
+    print(a)
+
+
+for a in range(0, 11, 2):
+    print(a)
+
+
+nomes=[]
+num = int(input("Escolha um número de 1 a 10: "))
+for a in range(11):
+    result=num+a
+    print(f"{num}+{a}={result}")
+
+
+while True:
+    nome = str(input("Informe seu nome: "))
+    if nome.lower()=="parar":
+        break
+    nomes.append(nome)
+
+
+soma=0
+while True:
+    num=int(input("Digite um número: "))
+    if num==0:
+        break
+    soma+=num
+print("A soma dos números escolhidos é: ", soma)
+
+
+m=0
+h=0
+while True:
+    sexo = str(input("Informe seu sexo: "))
+    if sexo=="sair":
+        break
+    if sexo=="m":
+        m+=1
+    if sexo=="h":
+        h+=1
+print(f"a quantidade de mulheres é: {m}")
+print(f"a quantidade de homens é: {h}")
